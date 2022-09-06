@@ -6,7 +6,7 @@ const connectDB = require("./config/db");
 const rawDataModel = require("./models/rawDataModel");
 const { fakeData } = require("./fakeData");
 const {
-  DOWNTIME_UNPLANED_SETTING_MACHINE,
+  DOWNTIME_UNPLANNED_SETTING_MACHINE,
 } = require("./constants/downtimeType");
 
 const app = express();
@@ -27,7 +27,7 @@ const addData = async ({ count }) => {
     const data = await rawDataModel.create(fakeData[count]);
 
     // const data = await rawDataModel.find({
-    //     downtimeType: DOWNTIME_UNPLANED_SETTING_MACHINE
+    //     downtimeType: DOWNTIME_UNPLANNED_SETTING_MACHINE
     // })
     console.log("Data Created_________");
     setTimeout(() => {
