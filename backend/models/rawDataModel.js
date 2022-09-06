@@ -1,67 +1,66 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-const rawSchema = mongoose.Schema({
+const rawDataSchema = mongoose.Schema(
+  {
     machineNo: {
-        type: Number,
-        required: true
+      type: String,
+      required: true,
     },
     lotNo: {
-        type: String,
-        required: true
+      type: String,
+      required: true,
     },
     model: {
-        type: String,
-        required: true
+      type: String,
+      required: true,
     },
     target: {
-        type: Number,
-        required: true
+      type: Number,
+      required: true,
     },
     cycleTime: {
-        type: Number,
-        required: true
+      type: Number,
+      required: true,
     },
     prodTotal: {
-        type: Number,
-        required: true
+      type: Number,
+      required: true,
     },
-    prodGood: {
-        type: Number,
-        required: true
+    prodPassed: {
+      type: Number,
+      required: true,
     },
-    prodFail: {
-        type: Number,
-        required: true
+    prodFailed: {
+      type: Number,
+      required: true,
     },
-    unplanDowntimeType: {
-        type: Number,
-        required: true
+    downTimeType: {
+      type: Number, // 1-19 unplanned ; 20-29 planned
+      required: true,
+      default: 0,
     },
-    planDowntimeType: {
-        type: Number,
-        required: true
+    stateStatus: {
+      type: Boolean,
+      required: true,
     },
-    runStatus: {
-        type: Boolean,
-        required: true
+    oeeIndicator: {
+      type: Number,
+      required: true,
     },
-    OEE: {
-        type: Number,
-        required: true
+    availableIndicator: {
+      type: Number,
+      required: true,
     },
-    A: {
-        type: Number,
-        required: true
+    performanceIndicator: {
+      type: Number,
+      required: true,
     },
-    P: {
-        type: Number,
-        required: true
+    qualityIndicator: {
+      type: Number,
+      required: true,
     },
-    Q: {
-        type: Number,
-        required: true
-    },
-}, { timestamp: true }
-)
+  },
+  { timestamps: true }
+);
 
-module.exports = mongoose.model('rawData', rawSchema)
+module.exports = mongoose.model("rawData", rawDataSchema);
