@@ -14,6 +14,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"0"  
   },
   {
     machineNo: 1,
@@ -31,6 +36,11 @@ module.exports.fakeData = [
     availableIndicator: 0.5,
     performanceIndicator: 0.5,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"1"
   },
   {
     machineNo: 1,
@@ -48,6 +58,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"2"
   },
   {
     machineNo: 1,
@@ -65,6 +80,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"3"
   },
   {
     machineNo: 1,
@@ -82,6 +102,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"4"
   },
   {
     machineNo: 1,
@@ -99,6 +124,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"5"
   },
   {
     machineNo: 1,
@@ -116,6 +146,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"6"
   },
   {
     machineNo: 1,
@@ -133,6 +168,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"7"
   },
   {
     machineNo: 1,
@@ -150,6 +190,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"8"
   },
   {
     machineNo: 1,
@@ -167,6 +212,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"9"
   },
   {
     machineNo: 2,
@@ -184,6 +234,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"0"
   },
   {
     machineNo: 2,
@@ -201,6 +256,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"1"
   },
   {
     machineNo: 2,
@@ -218,6 +278,11 @@ module.exports.fakeData = [
     availableIndicator: "1",
     performanceIndicator: "1",
     qualityIndicator: "1",
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"2"
   },
   {
     machineNo: 2,
@@ -235,6 +300,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"3"
   },
   {
     machineNo: 2,
@@ -252,6 +322,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"4"
   },
   {
     machineNo: 2,
@@ -269,6 +344,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"5"
   },
   {
     machineNo: 2,
@@ -286,6 +366,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"6"
   },
   {
     machineNo: 2,
@@ -303,6 +388,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"7"
   },
   {
     machineNo: 2,
@@ -320,6 +410,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"8"
   },
   {
     machineNo: 2,
@@ -337,6 +432,12 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"9"
+
   },
   {
     machineNo: 3,
@@ -354,6 +455,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"0"
   },
   {
     machineNo: 3,
@@ -371,6 +477,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"1"
   },
   {
     machineNo: 3,
@@ -388,6 +499,11 @@ module.exports.fakeData = [
     availableIndicator: 1,
     performanceIndicator: 1,
     qualityIndicator: 1,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"2"
   },
   {
     machineNo: 3,
@@ -404,6 +520,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"3"
   },
   {
     machineNo: 3,
@@ -420,6 +541,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"4"
   },
   {
     machineNo: 3,
@@ -437,6 +563,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"5"
   },
   {
     machineNo: 3,
@@ -454,6 +585,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"6"
   },
   {
     machineNo: 3,
@@ -470,6 +606,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"7"
   },
   {
     machineNo: 3,
@@ -486,6 +627,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"8"
   },
   {
     machineNo: 3,
@@ -502,6 +648,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"9"
   },
   {
     machineNo: 4,
@@ -519,6 +670,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"0"
   },
   {
     machineNo: 4,
@@ -536,6 +692,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"1"
   },
   {
     machineNo: 4,
@@ -553,6 +714,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"2"
   },
   {
     machineNo: 4,
@@ -570,6 +736,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"3"
   },
   {
     machineNo: 4,
@@ -587,6 +758,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"4"
   },
   {
     machineNo: 4,
@@ -604,6 +780,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"5"
   },
   {
     machineNo: 4,
@@ -621,6 +802,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"6"
   },
   {
     machineNo: 4,
@@ -638,6 +824,11 @@ module.exports.fakeData = [
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"7"
   },
   {
     machineNo: 4,
@@ -649,12 +840,16 @@ module.exports.fakeData = [
     prodPassed: 0,
     prodFailed: 0,
     downTimeType: 10,
-
     stateStatus: false,
     oeeIndicator: 0,
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"8"
   },
   {
     machineNo: 4,
@@ -666,12 +861,16 @@ module.exports.fakeData = [
     prodPassed: 0,
     prodFailed: 0,
     downTimeType: 10,
-
     stateStatus: false,
     oeeIndicator: 0,
     availableIndicator: 0,
     performanceIndicator: 0,
     qualityIndicator: 0,
+    year:"2022",
+    month:"10",
+    day:"22",
+    hour:"3",
+    minute:"9"
   },
 ];
 

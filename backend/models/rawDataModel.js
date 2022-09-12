@@ -59,6 +59,19 @@ const rawDataSchema = mongoose.Schema(
       type: Number,
       required: true,
     },
+    year: {
+      type:String,
+      required: true,
+    },
+    month: {
+      type:String,
+      required: true, 
+    },
+    day: {
+        type:String,
+        required: true,
+    },
+    hour: {}
   },
   { timestamps: true }
 );
