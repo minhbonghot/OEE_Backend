@@ -1,10 +1,12 @@
 const express = require("express");
 const colors = require("colors");
 const dotenv = require("dotenv").config();
+const path = require('path'); 
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const port = process.env.PORT || 5000;
 const connectDB = require("./config/db");
 const rawDataModel = require("./models/rawDataModel");
-const { fakeData } = require("./fakeData");
+const { fakeData } = require("./data/fakeData");
 const {
   DOWNTIME_UNPLANNED_SETTING_MACHINE,
 } = require("./constants/downtimeType");
