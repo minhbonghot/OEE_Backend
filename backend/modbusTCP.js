@@ -191,9 +191,9 @@ initData = () => {
   let dateCreated = `${year}-${month}-${day}T${hour}:${minute}:00.000Z`
   let machineOn = dataMachine1.runSystem
   let stateStatus = dataMachine1.runMachine
-  let machineNo = 'may1' //*********Dat ten may khi setup**********\\
-  let machineNo1 = 'Optimus'
-  let machineNo2 = 'BumbleBee'
+  let machineNo = 'KEEPER_LINE4' //*********Dat ten may khi setup**********\\
+  let machineNo1 = 'Siemens'
+  let machineNo2 = 'Mitsubishi'
   let lotNo = dataMachine1.lotNameNo
   let modelNo = dataMachine1.modelName
   let target = 0
@@ -250,58 +250,12 @@ initData = () => {
       hour: String(hour),
       minute: String(minute),
       dateCreated: String(dateCreated),
-    },
-    testData1 = {
-      machineNo: machineNo1,
-      lotNo: lotNo,
-      modelNo: modelNo,
-      target: target,
-      cycleTime: cycleTime,
-      prodTotal: prodTotal,
-      prodPassed: prodPassed,
-      prodFailed: prodFailed,
-      downTimeType: downTimeType,
-      stateStatus: stateStatus,
-      machineOn: machineOn,
-      oeeIndicator: oeeIndicator,
-      availableIndicator: availableIndicator,
-      performanceIndicator: performanceIndicator,
-      qualityIndicator: qualityIndicator,
-      year: String(year),
-      month: String(month),
-      day: String(day),
-      hour: String(hour),
-      minute: String(minute),
-      dateCreated: String(dateCreated),
-    },
-    testData2 = {
-      machineNo: machineNo2,
-      lotNo: lotNo,
-      modelNo: modelNo,
-      target: target,
-      cycleTime: cycleTime,
-      prodTotal: prodTotal,
-      prodPassed: prodPassed,
-      prodFailed: prodFailed,
-      downTimeType: downTimeType,
-      stateStatus: stateStatus,
-      machineOn: machineOn,
-      oeeIndicator: oeeIndicator,
-      availableIndicator: availableIndicator,
-      performanceIndicator: performanceIndicator,
-      qualityIndicator: qualityIndicator,
-      year: String(year),
-      month: String(month),
-      day: String(day),
-      hour: String(hour),
-      minute: String(minute),
-      dateCreated: String(dateCreated),
     }
 }
 
 const main = async (rawDataItem) => {
   try {
-    await axios.post("https://nittan.pambu.net/api/v1/rawData", rawDataItem);
+    await axios.post("https://pambu.net/nittan/api/v1/rawData", rawDataItem);
     console.log("New Data Added");
   }
   catch (error) {
@@ -312,11 +266,7 @@ const main = async (rawDataItem) => {
 setInterval(() => {
   initData()
   console.log(testData)
-  console.log(testData1)
-  console.log(testData2)
   main(testData);
-  main(testData1)
-  main(testData2)
   prodTemp = 0
   testData.stateStatust = false
   testData.machineNo = "0"
